@@ -1,5 +1,6 @@
 function working() {
-	("Hey this works!");
+	return("Hey this works!");
 }
 
-console.log(working);
+working();
+console.log(working());
